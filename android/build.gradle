@@ -3,9 +3,8 @@ version '1.0'
 
 buildscript {
     repositories {
-        google()
         mavenCentral()
-        maven { url 'https://repo.mixpanel.com' }
+//        google()
     }
 
     dependencies {
@@ -15,9 +14,8 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        google()
         mavenCentral()
-        maven { url 'https://repo.mixpanel.com' }
+//        google()
     }
 }
 
@@ -35,5 +33,5 @@ android {
 }
 
 dependencies {
-    implementation "com.mixpanel.android:mixpanel-android:6.+"
+    implementation "com.mixpanel.android:mixpanel-android:6.0.0"
 }
